@@ -1,3 +1,7 @@
+%general{
+  font-weight: bold;
+  text-align: center;
+}
 $colorleader:gold
 .alliance{
   display: flex;
@@ -11,4 +15,16 @@ $colorleader:gold
     color:$colorleader
     font-size: 10px;
   }
+}
+th{
+  @extend %message
+  font-size: 22px;
+}
+.Title{
+  @extend %message
+  font-size: 32px;
+}
+.subheading{
+  @extend %message
+  font-weight: bold;
 }

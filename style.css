@@ -7,10 +7,6 @@
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  th{
-    font-weight: bold;
-    font-size: 22px;
-  }
   table, th, td{
     padding: 8px;
     text-align: center;
@@ -19,11 +15,3 @@
   table{
     border-collapse:collapse;
   }
-.Title{
-  text-align: center;
-  font-weight: bold;
-  font-size: 32px;
-}
-.subheading{
-  font-weight: bold;
-}
