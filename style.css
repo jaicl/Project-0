@@ -1,0 +1,29 @@
+  body{
+    font-family: Calibri;
+    background-color: #fdffa3
+  }
+  div, a, img, table, ul, p{
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  th{
+    font-weight: bold;
+    font-size: 22px;
+  }
+  table, th, td{
+    padding: 8px;
+    text-align: center;
+    border: 2px solid black
+  }
+  table{
+    border-collapse:collapse;
+  }
+.Title{
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+}
+.subheading{
+  font-weight: bold;
+}
