@@ -1,0 +1,14 @@
+$colorleader:gold
+.alliance{
+  display: flex;
+  flex-wrap: wrap;
+  #leader{
+    color:$colorleader;
+    font-size: 16px
+    font-weight:bold;
+  }
+  #puppet{
+    color:$colorleader
+    font-size: 10px;
+  }
+}
