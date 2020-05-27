@@ -2,18 +2,23 @@
   font-weight: bold;
   text-align: center;
 }
-$colorleader:gold
+$colorleader:blue
 .alliance{
   display: flex;
   flex-wrap: wrap;
+  border: 2px solid black
+  padding: 8px
+  text-align:center;
   #leader{
     color:$colorleader;
-    font-size: 16px
+    font-size: 20px
+    width:200px;
     font-weight:bold;
   }
   #puppet{
     color:$colorleader
-    font-size: 10px;
+    font-size: 15px;
+    width:200px;
   }
 }
 th{
@@ -26,5 +31,4 @@ th{
 }
 .subheading{
   @extend %message
-  font-weight: bold;
 }
